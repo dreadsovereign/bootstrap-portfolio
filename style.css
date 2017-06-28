@@ -1,0 +1,146 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url('./assets/images/playstation-pattern.png');
+  background-repeat:repeat;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  padding-bottom: 80px;
+}
+
+.name {
+  font-family: "Georgia";
+  color: #4aaaa5;
+  padding: 15px 15px;
+  font-size: 24px;
+}
+
+.about {
+  font-family: "Georgia";
+  color: #4aaaa5;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+p.connect {
+  font-family: "Georgia";
+  color: #4aaaa5;
+  margin: 10px 0 0px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 16px;
+}
+
+.page-header {
+  margin: 20px 0 20px;
+  padding-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  background-color: #4aaaa5;
+  font-family: "Georgia";
+  font-size: 24px;
+}
+
+.navbar-static-top {
+  border-bottom: 1px solid #dddddd;
+}
+
+.navbar-header {
+  color: #4aaaa5;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-fixed-bottom {
+  background-color: #666666;
+  border-top: 7px solid #4aaaa5;
+  position: sticky;
+  margin-top: 15px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  background-color: #4aaaa5;
+}
+
+.thumbnal .caption {
+  color: #fff;
+}
+
+.col-md-8 {
+  border: 1px solid #dddddd;
+  background-color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.panel-default>.panel-heading {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.panel-heading {
+  border-bottom: 0;
+}
+
+.panel-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+img.social {
+  height: auto;
+  width: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #666666;
+  border-top: 7px solid #4aaaa5;
+}
+
+textarea.form-control {
+  height: 240px;
+  margin-bottom: 15px;
+}
+
+.btn-default {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    float: left;
+  }
+
+}
